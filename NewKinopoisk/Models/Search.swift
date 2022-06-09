@@ -14,8 +14,8 @@ struct SearchResponse: Codable {
 struct Search: Codable {
     let id: String?
     let resultType: String?
-    let title: String?
     let image: String?
+    let title: String?
     let description: String?
        
 }
